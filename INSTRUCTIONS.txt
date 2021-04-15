@@ -1,0 +1,16 @@
+Step 1: ****If running for the first time, in the training2.py file please change the variable LOAD_MODEL=False
+        Run the training2.py file which will train the over the training images.
+        training goes on for 10 epochs. (6 min for each epoch on our system)
+
+Step 2: The predicted images get stored in tm folder (it is obtained by running the resizer.ipynb on the saved_images) 
+        ( The output of our model :Due to limitations of gpu and memory the predicted images are scaled down by a factor of 10 
+          approximately. They are then resized to their original dimensions of 2048*1948)
+
+The predicted images for the test set we got are stored in the our_predictions folder.
+
+The weights of our trained model are stored in the my_checkpoint.pth folder
+
+****If an error occurs 'OMP error #15':   Run the file in IDLE (python shell)
+
+
+**************** For second run onwards please change the variable to LOAD_MODEL=True
