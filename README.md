@@ -1,2 +1,2 @@
 # Vegetation
-![crude]('/crude_map.PNG')
+![crude]('crude_map.png')
